@@ -40,18 +40,28 @@ $100-200
 - [X] Expanded LCD capability to larger screens that can show multiple lines of data at once
 
 ## Hardware Wiring Diagram:
-
-
 Various existing designs are available online for accelerometers with different types of accelerometers. In this project, each of the different proposed accelerometers will be wired to communicate with analog-to-digital converter and send data to Arduino, as depicted above. As data is recorded it will be displayed on the LCD screen.
 
+![Main station](/../main/images/main.png)
+Main data station
+![remote station](/../main/images/remote.png)
+Remote data station
+
 ## Materials list:
-- LIS3DH accelerometer (2) - $ 4.99/ea 
+- LIS3DH accelerometer (2) - $ 4.99/ea
+![accel](/../main/images/lis.jpeg) 
 - LCD screen – $ 34.99​
+![LCD](/../main/images/TFTLCD.jpg)
 - Arduino UNO - $ 24.99
+![UNO](/../main/images/UNO.jpeg)
 - Arduino Mega 2560 - $ 39.99
+![Mega](/../main/images/Mega.jpg)
 - ADS1115(2) - $ 4.99/ea
+![ADS](/../main/images/adc.jpg)
 - Arduino W5100 ethernet shield - $ 20.99
+![w5100](/../main/images/w5100.jpg)
 - 32 GB microSD card - $ 9.99
+![SD](/../main/images/SD.jpg)
 
 ## References:
 [1] Mateeva, A. et al. Distributed Acoustic Sensing for reservoir monitoring with vertical seismic profiling. Geophysical Prospecting 62, 679–692 (2014). 
