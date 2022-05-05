@@ -98,9 +98,9 @@ Accelerometer with ADC:
 - Accelerometer: 8g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
     <p align="middle">
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="33%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="33%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="33%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
     </p>
     
 <details><summary>Graphs</summary>
