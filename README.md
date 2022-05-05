@@ -51,7 +51,6 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
 -  Accelerometer: 2g sensitivity, 1hz sampling rate
 -  Shake Table: 1hz vibration, 1mm amplitude
 
-
 ### Test 2
 - Accelerometer: 4g sensitivity, 1hz sampling rate
 - Shake Table: 1hz vibration, 1mm amplitude
@@ -60,64 +59,87 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
 - Accelerometer: 4g sensitivity, 1hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
-<details><summary>Graphs</summary>
-    
-Accelerometer with no ADC:
-    <p>x-axis <img src="/../main/Accelerometer (no adc)/8g/x_8g_spectro.bmp" alt="pic" title="title" /></p>
-    <p>y-axis <img src="/../main/Accelerometer (no adc)/8g/y_8g_spectro.bmp" alt="pic" title="title" /></p>
-    <p>z-axis <img src="/../main/Accelerometer (no adc)/8g/z_8g_spectro.bmp" alt="pic" title="title" /></p>
-    
-  
-Accelerometer with ADC:
-    <p>x-axis <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-    <p>y-axis <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-    <p>z-axis <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-
-</details>
-
 ### Test 4
 - Accelerometer: 4g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
 <details><summary>Graphs</summary>
+    Accelerometer with no ADC:
+    <p align="middle">   
+        <img src="/../main/Accelerometer (no adc)/4g/x_4g_time.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/4g/y_4g_time.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/4g/z_4g_time.bmp" width="32%" />
+        </p>
+    <p align="middle">   
+        <img src="/../main/Accelerometer (no adc)/4g/x_4g_waterfall.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/4g/y_4g_waterfall.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/4g/z_4g_waterfall.bmp" width="32%" />
+        </p>
+    <p align="middle">   
+        <img src="/../main/Accelerometer (no adc)/4g/x_4g_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/4g/y_4g_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/4g/z_4g_spectro.bmp" width="32%" />
+        </p>
+ 
     
-Accelerometer with no ADC:
-    <p>x-axis <img src="/../main/Accelerometer (no adc)/4g/x_4g_spectro.bmp" alt="pic" title="title" /></p>
-    <p>y-axis <img src="/../main/Accelerometer (no adc)/4g/y_4g_spectro.bmp" alt="pic" title="title" /></p>
-    <p>z-axis <img src="/../main/Accelerometer (no adc)/4g/z_4g_spectro.bmp" alt="pic" title="title" /></p>
-    
-  
-Accelerometer with ADC:
-    <p>x-axis <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-    <p>y-axis <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-    <p>z-axis <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-
-</details>
+    Accelerometer with ADC:
+        
+   <p align="middle">
+        <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_time.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_time.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_time.bmp" width="32%" />
+   <p align="middle">
+        <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_waterfall.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_waterfall.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_waterfall.bmp" width="32%" />
+        </p>
+   <p align="middle">
+        <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_spectro.bmp" width="32%" />
+        </p>
+    </details>
 
 ### Test 5
 - Accelerometer: 8g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
-    <p align="middle">
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
-    </p>
-    
+
 <details><summary>Graphs</summary>
+    Accelerometer with no ADC:
+    <p align="middle">   
+        <img src="/../main/Accelerometer (no adc)/8g/x_8g_time.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/8g/y_8g_time.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/8g/z_8g_time.bmp" width="32%" />
+        </p>
+    <p align="middle">   
+        <img src="/../main/Accelerometer (no adc)/8g/x_8g_waterfall.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/8g/y_8g_waterfall.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/8g/z_8g_waterfall.bmp" width="32%" />
+        </p>
+    <p align="middle">   
+        <img src="/../main/Accelerometer (no adc)/8g/x_8g_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/8g/y_8g_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (no adc)/8g/z_8g_spectro.bmp" width="32%" />
+        </p>
+ 
     
-Accelerometer with no ADC:
-    <p>x-axis <img src="/../main/Accelerometer (no adc)/8g/x_8g_spectro.bmp" alt="pic" title="title" /></p>
-    <p>y-axis <img src="/../main/Accelerometer (no adc)/8g/y_8g_spectro.bmp" alt="pic" title="title" /></p>
-    <p>z-axis <img src="/../main/Accelerometer (no adc)/8g/z_8g_spectro.bmp" alt="pic" title="title" /></p>
-    
-  
-Accelerometer with ADC:
-    <p>x-axis <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-    <p>y-axis <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-    <p>z-axis <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
-    
-    
-</details>
+    Accelerometer with ADC:
+        
+   <p align="middle">
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10z_time.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_time.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_time.bmp" width="32%" />
+   <p align="middle">
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_waterfall.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_waterfall.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_waterfall.bmp" width="32%" />
+        </p>
+   <p align="middle">
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_spectro.bmp" width="32%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_spectro.bmp" width="32%" />
+        </p>
+    </details>
 
 ## Hardware Wiring Diagram:
 Various existing designs are available online for accelerometers with different types of accelerometers. In this project, each of the different proposed accelerometers will be wired to communicate with analog-to-digital converter and send data to Arduino, as depicted above. As data is recorded it will be displayed on the LCD screen.
