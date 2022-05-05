@@ -44,7 +44,7 @@ Hardware Wiring Diagram:
 Various existing designs are available online for accelerometers with different types of accelerometers. In this project, each of the different proposed accelerometers will be wired to communicate with analog-to-digital converter and send data to Arduino, as depicted above. As data is recorded it will be displayed on the LCD screen.
 
 ## Materials list:
-- LIS3DH accelerometer (2) - $ 4.99/ea
+- LIS3DH accelerometer (2) - $ 4.99/ea 
 - LCD screen – $ 34.99​
 - Arduino UNO - $ 24.99
 - Arduino Mega 2560 - $ 39.99
