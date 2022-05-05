@@ -19,23 +19,25 @@ Helps identify fluid properties and can inform on possible changes in densities 
 $100-200
 
 ## Implementation plan:
-- [ ] Obtain accelerometers and other required sensors
-- [ ] Connect the smart board, ADC and LCD screen to a breadboard
-- [ ] Set up the receiver with a single accelerometer attached
-- [ ] Add the necessary libraries to run the accelerometer, ADC and LCD 
-- [ ] Define axis on accelerometer and build code to run the receiver and transmitter
-- [ ] Perform a simple test to verify that the accelerometer is transmitting data
-- [ ] Test precision with Shake Table 
-- [ ] Include code to  processes signal
-- [ ] Observe the data on the serial monitor and see if it matches what is displayed on the LCD 
+- [X] Obtain accelerometers and other required sensors
+- [X] Connect the smart board, ADC and LCD screen to a breadboard
+- [X] Set up the receiver/main station with a single accelerometer attached
+- [X] Add the necessary libraries to run the accelerometer, ADC and LCD 
+- [X] Define axis on accelerometer and build code to run the receiver and transmitter
+- [X] Perform a simple test to verify that the accelerometer is transmitting data
+- [X] Test precision with Shake Table 
+- [X] Include code to  processes signal
+    - Utilized third-party software to process transforms and spectrograms   
+- [X] Observe the data on the serial monitor and see if it matches what is displayed on the LCD 
 - [ ] Expand the array to include 2 accelerometers connected 
 
 ## Possible additional elements: 
-- [ ] External SD storage for extended recording
+- [X] External SD storage for extended recording
+- [X] Set up secondary station to record data independently from main station
 - [ ] Develop wireless capability by utilizing either RF/wireless receiver and  MMS – 10-Axis IMU
 - [ ] Expand array to multiple in-line transmitters that communicate with the single receiver
 - [ ] Develop array to have in-line transmitters with connected transmitters that transfer data from other and relay to the main receiver
-- [ ] Expanded LCD capability to larger screens that can show multiple lines of data at once
+- [X] Expanded LCD capability to larger screens that can show multiple lines of data at once
 
 Hardware Wiring Diagram:
 
@@ -49,5 +51,5 @@ Various existing designs are available online for accelerometers with different 
 - ADS1115(2) - $ 4.99/ea
 - Arduino W5100 ethernet shield - $ 20.99
 
-## References
+## References:
 [1] Mateeva, A. et al. Distributed Acoustic Sensing for reservoir monitoring with vertical seismic profiling. Geophysical Prospecting 62, 679–692 (2014). 
