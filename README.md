@@ -39,7 +39,8 @@ $100-200
 - [ ] Develop array to have in-line transmitters with connected transmitters that transfer data from other and relay to the main receiver
 - [X] Expanded LCD capability to larger screens that can show multiple lines of data at once
 
-Hardware Wiring Diagram:
+## Hardware Wiring Diagram:
+
 
 Various existing designs are available online for accelerometers with different types of accelerometers. In this project, each of the different proposed accelerometers will be wired to communicate with analog-to-digital converter and send data to Arduino, as depicted above. As data is recorded it will be displayed on the LCD screen.
 
@@ -50,6 +51,7 @@ Various existing designs are available online for accelerometers with different 
 - Arduino Mega 2560 - $ 39.99
 - ADS1115(2) - $ 4.99/ea
 - Arduino W5100 ethernet shield - $ 20.99
+- 32 GB microSD card - $ 9.99
 
 ## References:
 [1] Mateeva, A. et al. Distributed Acoustic Sensing for reservoir monitoring with vertical seismic profiling. Geophysical Prospecting 62, 679–692 (2014). 
