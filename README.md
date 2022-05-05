@@ -33,11 +33,39 @@ $100-200
 
 ## Possible additional elements: 
 - [X] External SD storage for extended recording
-- [X] Set up secondary station to record data independently from main station
+- [X] Set-up secondary station to record data independently from main station
 - [ ] Develop wireless capability by utilizing either RF/wireless receiver and  MMS – 10-Axis IMU
 - [ ] Expand array to multiple in-line transmitters that communicate with the single receiver
 - [ ] Develop array to have in-line transmitters with connected transmitters that transfer data from other and relay to the main receiver
 - [X] Expanded LCD capability to larger screens that can show multiple lines of data at once
+
+## Validation/Data collection:
+We validated our accelerometer and station set-ups (with/without external ADC attached) on a shake table. For the validation tests, we evaluated both stations at variable frequencies and sensitivities. We began by obtaining a baseline measurement where our accelerometer was on a flat, unmoving surface to observe the accelerometers behavior and variability [INSERT DATA OR REFERENCE FOLDER]. Our settings for our accelerometer were set to 4g sensitivity with a 10hz sampling rate. Our shake table had a limited vibrational frequency ranging from 1-10hz so we could fully test the capabilities of the accelerometers we had.
+
+### Baseline
+![baseline](/../main/graphs/baseline_1.png)
+
+We then changed the sensitivity and sampling rates of both accelerometers and cycled through several different validation tests:
+
+### Test 1
+-  Accelerometer: 2g sensitivity, 1hz sampling rate
+-  Shake Table: 1hz vibration, 1mm amplitude
+
+### Test 2
+- Accelerometer: 4g sensitivity, 1hz sampling rate
+- Shake Table: 1hz vibration, 1mm amplitude
+
+### Test 3
+- Accelerometer: 4g sensitivity, 1hz sampling rate
+- Shake Table: 10hz vibration, 1mm amplitude
+
+### Test 4
+- Accelerometer: 4g sensitivity, 10hz sampling rate
+- Shake Table: 10hz vibration, 1mm amplitude
+
+### Test 5
+- Accelerometer: 8g sensitivity, 10hz sampling rate
+- Shake Table: 10hz vibration, 1mm amplitude
 
 ## Hardware Wiring Diagram:
 Various existing designs are available online for accelerometers with different types of accelerometers. In this project, each of the different proposed accelerometers will be wired to communicate with analog-to-digital converter and send data to Arduino, as depicted above. As data is recorded it will be displayed on the LCD screen.
