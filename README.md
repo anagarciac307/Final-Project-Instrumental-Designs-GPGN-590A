@@ -40,16 +40,17 @@ $100-200
 - [X] Expanded LCD capability to larger screens that can show multiple lines of data at once
 
 ## Validation/Data collection:
-We validated our accelerometer and station set-ups (with/without external ADC attached) on a shake table. For the validation tests, we evaluated both stations at variable frequencies and sensitivities. We began by obtaining a baseline measurement where our accelerometer was on a flat, unmoving surface to observe the accelerometers behavior and variability [INSERT DATA OR REFERENCE FOLDER]. Our settings for our accelerometer were set to 4g sensitivity with a 10hz sampling rate. Our shake table had a limited vibrational frequency ranging from 1-10hz so we could fully test the capabilities of the accelerometers we had.
+We validated our accelerometer and station set-ups (with/without external ADC attached) on a shake table. For the validation tests, we evaluated both stations at variable frequencies and sensitivities. We began by obtaining a baseline measurement where our accelerometer was on a flat, unmoving surface to observe the accelerometers behavior and variability. Our settings for our accelerometer were set to 4g sensitivity with a 10hz sampling rate. Our shake table had a limited vibrational frequency ranging from 1-10hz so we could fully test the capabilities of the accelerometers we had. We wound up sticking with the 4g and 8g data at 10hz as they proved to be a good sensistivity for testing on the shake table. We noticed some irregularities and aliasing when utilizing 2g sensitivity and variable sampling rates between sensor and shake table. Each of our tests include an amplitude through time, spectrogram and FFT graph.
 
 ### Baseline
-![baseline](/../main/graphs/baseline_1.png)
+![baseline](/../main/baseline/baseline_1.png)
 
 We then changed the sensitivity and sampling rates of both accelerometers and cycled through several different validation tests:
 
 ### Test 1
 -  Accelerometer: 2g sensitivity, 1hz sampling rate
 -  Shake Table: 1hz vibration, 1mm amplitude
+
 
 ### Test 2
 - Accelerometer: 4g sensitivity, 1hz sampling rate
@@ -59,13 +60,64 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
 - Accelerometer: 4g sensitivity, 1hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
+<details><summary>Graphs</summary>
+    
+Accelerometer with no ADC:
+    <p>x-axis <img src="/../main/Accelerometer (no adc)/8g/x_8g_spectro.bmp" alt="pic" title="title" /></p>
+    <p>y-axis <img src="/../main/Accelerometer (no adc)/8g/y_8g_spectro.bmp" alt="pic" title="title" /></p>
+    <p>z-axis <img src="/../main/Accelerometer (no adc)/8g/z_8g_spectro.bmp" alt="pic" title="title" /></p>
+    
+  
+Accelerometer with ADC:
+    <p>x-axis <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+    <p>y-axis <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+    <p>z-axis <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+
+</details>
+
 ### Test 4
 - Accelerometer: 4g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
+<details><summary>Graphs</summary>
+    
+Accelerometer with no ADC:
+    <p>x-axis <img src="/../main/Accelerometer (no adc)/4g/x_4g_spectro.bmp" alt="pic" title="title" /></p>
+    <p>y-axis <img src="/../main/Accelerometer (no adc)/4g/y_4g_spectro.bmp" alt="pic" title="title" /></p>
+    <p>z-axis <img src="/../main/Accelerometer (no adc)/4g/z_4g_spectro.bmp" alt="pic" title="title" /></p>
+    
+  
+Accelerometer with ADC:
+    <p>x-axis <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+    <p>y-axis <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+    <p>z-axis <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+
+</details>
+
 ### Test 5
 - Accelerometer: 8g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
+    <p align="middle">
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="33%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="33%" />
+        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="33%" />
+    </p>
+    
+<details><summary>Graphs</summary>
+    
+Accelerometer with no ADC:
+    <p>x-axis <img src="/../main/Accelerometer (no adc)/8g/x_8g_spectro.bmp" alt="pic" title="title" /></p>
+    <p>y-axis <img src="/../main/Accelerometer (no adc)/8g/y_8g_spectro.bmp" alt="pic" title="title" /></p>
+    <p>z-axis <img src="/../main/Accelerometer (no adc)/8g/z_8g_spectro.bmp" alt="pic" title="title" /></p>
+    
+  
+Accelerometer with ADC:
+    <p>x-axis <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+    <p>y-axis <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+    <p>z-axis <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_spectro.bmp" alt="pic" title="title" /></p>
+    
+    
+</details>
 
 ## Hardware Wiring Diagram:
 Various existing designs are available online for accelerometers with different types of accelerometers. In this project, each of the different proposed accelerometers will be wired to communicate with analog-to-digital converter and send data to Arduino, as depicted above. As data is recorded it will be displayed on the LCD screen.
