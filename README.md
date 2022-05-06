@@ -27,7 +27,8 @@ $100-200
 - [X] Perform a simple test to verify that the accelerometer is transmitting data
 - [X] Test precision with Shake Table 
 - [X] Include code to  processes signal
-    - Utilized third-party software to process transforms and spectrograms   
+    - Utilized third-party software to process transforms and spectrograms
+    - Utilized python to find compare fourier transforms and spectrograms of shake table and accelerometer   
 - [X] Observe the data on the serial monitor and see if it matches what is displayed on the LCD 
 - [ ] Expand the array to include 2 accelerometers connected 
 
