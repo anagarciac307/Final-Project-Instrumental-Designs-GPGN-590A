@@ -45,6 +45,25 @@ We validated our accelerometer and station set-ups (with/without external ADC at
 ### Baseline
 ![baseline](/../main/baseline/baseline_1.png)
 
+#### Baseline Data
+<details><summary>Graphs</summary>
+    <p align="middle">
+        <img src="/../main/baseline/x_baseline_Input_time_history.bmp"width="32%" />
+        <img src="/../main/baseline/y_baseline_time.bmp"width="32%" />
+        <img src="/../main/baseline/z_baseline_time.bmp"width="32%" />
+    </p>
+    <p align="middle">
+        <img src="/../main/baseline/x_baseline_waterfall.bmp"width="32%" />
+        <img src="/../main/baseline/y_baseline_waterfall.bmp"width="32%" />
+        <img src="/../main/baseline/z_baseline_waterfall.bmp"width="32%" />
+    </p>
+    <p align="middle">
+        <img src="/../main/baseline/x_base_spectro.bmp"width="32%" />
+        <img src="/../main/baseline/y_base_spectro.bmp"width="32%" />
+        <img src="/../main/baseline/z_base_spectro.bmp"width="32%" />
+    </p>
+    </details>
+    
 We then changed the sensitivity and sampling rates of both accelerometers and cycled through several different validation tests:
 
 ### Test 1
@@ -63,6 +82,7 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
 - Accelerometer: 4g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
+#### Accelerometer Data
 <details><summary>Graphs</summary>
     Accelerometer with no ADC:
     <p align="middle">   
@@ -99,11 +119,31 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
         <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_spectro.bmp" width="32%" />
         </p>
     </details>
+    
+#### Shake Table Data
+<details><summary>Graphs</summary>
+    <p align="middle">
+        <img src="/../main/Shake Table/x_time_4g.bmp"width="32%" />
+        <img src="/../main/Shake Table/y_time_4g.bmp"width="32%" />
+        <img src="/../main/Shake Table/z_time_4g.bmp"width="32%" />
+    </p>
+    <p align="middle">
+        <img src="/../main/Shake Table/x_waterfall_4g.bmp"width="32%" />
+        <img src="/../main/Shake Table/y_waterfall_4g.bmp"width="32%" />
+        <img src="/../main/Shake Table/z_waterfall_4g.bmp"width="32%" />
+    </p>
+    <p align="middle">
+        <img src="/../main/Shake Table/x_spectro_4g.bmp"width="32%" />
+        <img src="/../main/Shake Table/y_spectro_4g.bmp"width="32%" />
+        <img src="/../main/Shake Table/z_spectro_4g.bmp"width="32%" />
+    </p>
+    </details>
 
 ### Test 5
 - Accelerometer: 8g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
+#### Accelerometer Data
 <details><summary>Graphs</summary>
     Accelerometer with no ADC:
     <p align="middle">   
@@ -120,9 +160,9 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
         <img src="/../main/Accelerometer (no adc)/8g/x_8g_spectro.bmp" width="32%" />
         <img src="/../main/Accelerometer (no adc)/8g/y_8g_spectro.bmp" width="32%" />
         <img src="/../main/Accelerometer (no adc)/8g/z_8g_spectro.bmp" width="32%" />
-        </p>
- 
+    </p>
     
+
     Accelerometer with ADC:
         
    <p align="middle">
@@ -140,6 +180,26 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
         <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_spectro.bmp" width="32%" />
         </p>
     </details>
+    
+#### Shake Table Data
+<details><summary>Graphs</summary>
+    <p align="middle">
+        <img src="/../main/Shake Table/x_time_8g.bmp"width="32%" />
+        <img src="/../main/Shake Table/y_time_8g.bmp"width="32%" />
+        <img src="/../main/Shake Table/z_time_8g.bmp"width="32%" />
+    </p>
+    <p align="middle">
+        <img src="/../main/Shake Table/x_waterfall_8g.bmp"width="32%" />
+        <img src="/../main/Shake Table/y_waterfall_8g.bmp"width="32%" />
+        <img src="/../main/Shake Table/z_waterfall_8g.bmp"width="32%" />
+    </p>
+    <p align="middle">
+        <img src="/../main/Shake Table/x_spectro_8g.bmp"width="32%" />
+        <img src="/../main/Shake Table/y_spectro_8g.bmp"width="32%" />
+        <img src="/../main/Shake Table/z_spectro_8g.bmp"width="32%" />
+    </p>
+    </details>
+    
 
 ## Hardware Wiring Diagram:
 Various existing designs are available online for accelerometers with different types of accelerometers. In this project, each of the different proposed accelerometers will be wired to communicate with analog-to-digital converter and send data to Arduino, as depicted above. As data is recorded it will be displayed on the LCD screen.
