@@ -202,7 +202,10 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
     
     
     
-    https://youtu.be/5UZM9bT0xww
+
+https://user-images.githubusercontent.com/44856601/167182180-25f0c089-e98c-4e4a-8d9a-762d265ea3ed.mov
+
+
 
 ## Hardware Wiring Diagram:
 Various existing designs are available online for accelerometers with different types of accelerometers. In this project, each of the different proposed accelerometers will be wired to communicate with analog-to-digital converter and send data to Arduino, as depicted above. As data is recorded it will be displayed on the LCD screen.
