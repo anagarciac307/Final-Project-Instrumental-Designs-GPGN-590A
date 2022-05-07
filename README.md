@@ -71,135 +71,277 @@ We then changed the sensitivity and sampling rates of both accelerometers and cy
 -  Accelerometer: 2g sensitivity, 1hz sampling rate
 -  Shake Table: 1hz vibration, 1mm amplitude
 
+   - #### Accelerometer no ADC:
+    <details><summary>Graphs</summary>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Agraphs/x_2_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/Agraphs/y_2_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/Agraphs/z_2_time.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Agraphs/x_2_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/Agraphs/y_2_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/Agraphs/z_2_waterfall.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Agraphs/x_2_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/Agraphs/y_2_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/Agraphs/z_2_spectro.png" width="32%" />
+            </p>
+        </details>
+    
+    
+   - #### Accelerometer with ADC:
+    <details><summary>Graphs</summary>      
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_2_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_2_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_2_time.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_2_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_2_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_2_waterfall.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_2_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_2_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_2_spectro.png" width="32%" />
+            </p>
+        </details>
+    
+   - #### Shake Table Data
+    <details><summary>Graphs</summary>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_2_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_2_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_2_time.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_2_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_2_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_2_waterfall.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_2_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_2_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_2_spectro.png" width="32%" />
+            </p>
+        </details>
+    
+    
+    
 ### Test 2
 - Accelerometer: 4g sensitivity, 1hz sampling rate
 - Shake Table: 1hz vibration, 1mm amplitude
 
+   - #### Accelerometer with ADC:
+    <details><summary>Graphs</summary>      
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_3_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_3_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_3_time.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_3_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_3_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_3_waterfall.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_3_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_3_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_3_spectro.png" width="32%" />
+            </p>
+        </details>
+    
+   - #### Shake Table Data
+    <details><summary>Graphs</summary>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_3_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_3_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_3_time.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_3_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_3_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_3_waterfall.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_3_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_3_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_3_spectro.png" width="32%" />
+            </p>
+        </details>
+    
+    
+    
 ### Test 3
 - Accelerometer: 4g sensitivity, 1hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
+   - #### Accelerometer with ADC:
+    <details><summary>Graphs</summary>      
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_4_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_4_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_4_time.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_4_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_4_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_4_waterfall.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/Dgraphs/x_4_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/y_4_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/Dgraphs/z_4_spectro.png" width="32%" />
+            </p>
+        </details>
+    
+   - #### Shake Table Data
+    <details><summary>Graphs</summary>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_4_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_4_time.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_4_time.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_4_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_4_waterfall.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_4_waterfall.png" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/images/test_graphs/STgraphs/x_4_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/y_4_spectro.png" width="32%" />
+            <img src="/../main/images/test_graphs/STgraphs/z_4_spectro.png" width="32%" />
+            </p>
+        </details>
+    
+    
+    
 ### Test 4
 - Accelerometer: 4g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
-#### Accelerometer Data
-<details><summary>Graphs</summary>
-    Accelerometer with no ADC:
-    <p align="middle">   
-        <img src="/../main/Accelerometer (no adc)/4g/x_4g_time.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/4g/y_4g_time.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/4g/z_4g_time.bmp" width="32%" />
-        </p>
-    <p align="middle">   
-        <img src="/../main/Accelerometer (no adc)/4g/x_4g_waterfall.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/4g/y_4g_waterfall.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/4g/z_4g_waterfall.bmp" width="32%" />
-        </p>
-    <p align="middle">   
-        <img src="/../main/Accelerometer (no adc)/4g/x_4g_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/4g/y_4g_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/4g/z_4g_spectro.bmp" width="32%" />
-        </p>
+   - #### Accelerometer no ADC
+    <details><summary>Graphs</summary>
+        <p align="middle">   
+            <img src="/../main/Accelerometer (no adc)/4g/x_4g_time.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/4g/y_4g_time.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/4g/z_4g_time.bmp" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/Accelerometer (no adc)/4g/x_4g_waterfall.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/4g/y_4g_waterfall.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/4g/z_4g_waterfall.bmp" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/Accelerometer (no adc)/4g/x_4g_spectro.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/4g/y_4g_spectro.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/4g/z_4g_spectro.bmp" width="32%" />
+            </p>
+    </details>
  
+
+    - #### Accelerometer with ADC:
+    <details><summary>Graphs</summary>
+       <p align="middle">
+            <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_time.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_time.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_time.bmp" width="32%" />
+       <p align="middle">
+            <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_waterfall.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_waterfall.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_waterfall.bmp" width="32%" />
+            </p>
+       <p align="middle">
+            <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_spectro.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_spectro.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_spectro.bmp" width="32%" />
+            </p>
+        </details>
     
-    Accelerometer with ADC:
-        
-   <p align="middle">
-        <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_time.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_time.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_time.bmp" width="32%" />
-   <p align="middle">
-        <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_waterfall.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_waterfall.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_waterfall.bmp" width="32%" />
+   - #### Shake Table Data
+    <details><summary>Graphs</summary>
+        <p align="middle">
+            <img src="/../main/Shake Table/x_time_4g.bmp"width="32%" />
+            <img src="/../main/Shake Table/y_time_4g.bmp"width="32%" />
+            <img src="/../main/Shake Table/z_time_4g.bmp"width="32%" />
         </p>
-   <p align="middle">
-        <img src="/../main/Accelerometer (with adc)/4g_D/x_4g_10hz_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/4g_D/y_4g_10hz_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/4g_D/z_4g_10hz_spectro.bmp" width="32%" />
+        <p align="middle">
+            <img src="/../main/Shake Table/x_waterfall_4g.bmp"width="32%" />
+            <img src="/../main/Shake Table/y_waterfall_4g.bmp"width="32%" />
+            <img src="/../main/Shake Table/z_waterfall_4g.bmp"width="32%" />
         </p>
-    </details>
-    
-#### Shake Table Data
-<details><summary>Graphs</summary>
-    <p align="middle">
-        <img src="/../main/Shake Table/x_time_4g.bmp"width="32%" />
-        <img src="/../main/Shake Table/y_time_4g.bmp"width="32%" />
-        <img src="/../main/Shake Table/z_time_4g.bmp"width="32%" />
-    </p>
-    <p align="middle">
-        <img src="/../main/Shake Table/x_waterfall_4g.bmp"width="32%" />
-        <img src="/../main/Shake Table/y_waterfall_4g.bmp"width="32%" />
-        <img src="/../main/Shake Table/z_waterfall_4g.bmp"width="32%" />
-    </p>
-    <p align="middle">
-        <img src="/../main/Shake Table/x_spectro_4g.bmp"width="32%" />
-        <img src="/../main/Shake Table/y_spectro_4g.bmp"width="32%" />
-        <img src="/../main/Shake Table/z_spectro_4g.bmp"width="32%" />
-    </p>
-    </details>
+        <p align="middle">
+            <img src="/../main/Shake Table/x_spectro_4g.bmp"width="32%" />
+            <img src="/../main/Shake Table/y_spectro_4g.bmp"width="32%" />
+            <img src="/../main/Shake Table/z_spectro_4g.bmp"width="32%" />
+        </p>
+        </details>
+
+
 
 ### Test 5
 - Accelerometer: 8g sensitivity, 10hz sampling rate
 - Shake Table: 10hz vibration, 1mm amplitude
 
-#### Accelerometer Data
-<details><summary>Graphs</summary>
-    Accelerometer with no ADC:
-    <p align="middle">   
-        <img src="/../main/Accelerometer (no adc)/8g/x_8g_time.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/8g/y_8g_time.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/8g/z_8g_time.bmp" width="32%" />
+   - #### Accelerometer no ADC
+    <details><summary>Graphs</summary>
+        <p align="middle">   
+            <img src="/../main/Accelerometer (no adc)/8g/x_8g_time.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/8g/y_8g_time.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/8g/z_8g_time.bmp" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/Accelerometer (no adc)/8g/x_8g_waterfall.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/8g/y_8g_waterfall.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/8g/z_8g_waterfall.bmp" width="32%" />
+            </p>
+        <p align="middle">   
+            <img src="/../main/Accelerometer (no adc)/8g/x_8g_spectro.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/8g/y_8g_spectro.bmp" width="32%" />
+            <img src="/../main/Accelerometer (no adc)/8g/z_8g_spectro.bmp" width="32%" />
         </p>
-    <p align="middle">   
-        <img src="/../main/Accelerometer (no adc)/8g/x_8g_waterfall.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/8g/y_8g_waterfall.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/8g/z_8g_waterfall.bmp" width="32%" />
-        </p>
-    <p align="middle">   
-        <img src="/../main/Accelerometer (no adc)/8g/x_8g_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/8g/y_8g_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (no adc)/8g/z_8g_spectro.bmp" width="32%" />
-    </p>
-    
+    </details>
 
-    Accelerometer with ADC:
-        
-   <p align="middle">
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10z_time.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_time.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_time.bmp" width="32%" />
-   <p align="middle">
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_waterfall.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_waterfall.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_waterfall.bmp" width="32%" />
-        </p>
-   <p align="middle">
-        <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_spectro.bmp" width="32%" />
-        <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_spectro.bmp" width="32%" />
-        </p>
-    </details>
+
+   - #### Accelerometer with ADC:
+    <details><summary>Graphs</summary>
+       <p align="middle">
+            <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10z_time.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_time.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_time.bmp" width="32%" />
+       <p align="middle">
+            <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_waterfall.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_waterfall.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_waterfall.bmp" width="32%" />
+            </p>
+       <p align="middle">
+            <img src="/../main/Accelerometer (with adc)/8g_D/x_8g_10hz_spectro.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/8g_D/y_8g_10hz_spectro.bmp" width="32%" />
+            <img src="/../main/Accelerometer (with adc)/8g_D/z_8g_10hz_spectro.bmp" width="32%" />
+            </p>
+        </details>
     
-#### Shake Table Data
-<details><summary>Graphs</summary>
-    <p align="middle">
-        <img src="/../main/Shake Table/x_time_8g.bmp"width="32%" />
-        <img src="/../main/Shake Table/y_time_8g.bmp"width="32%" />
-        <img src="/../main/Shake Table/z_time_8g.bmp"width="32%" />
-    </p>
-    <p align="middle">
-        <img src="/../main/Shake Table/x_waterfall_8g.bmp"width="32%" />
-        <img src="/../main/Shake Table/y_waterfall_8g.bmp"width="32%" />
-        <img src="/../main/Shake Table/z_waterfall_8g.bmp"width="32%" />
-    </p>
-    <p align="middle">
-        <img src="/../main/Shake Table/x_spectro_8g.bmp"width="32%" />
-        <img src="/../main/Shake Table/y_spectro_8g.bmp"width="32%" />
-        <img src="/../main/Shake Table/z_spectro_8g.bmp"width="32%" />
-    </p>
-    </details>
+   - #### Shake Table Data
+    <details><summary>Graphs</summary>
+        <p align="middle">
+            <img src="/../main/Shake Table/x_time_8g.bmp"width="32%" />
+            <img src="/../main/Shake Table/y_time_8g.bmp"width="32%" />
+            <img src="/../main/Shake Table/z_time_8g.bmp"width="32%" />
+        </p>
+        <p align="middle">
+            <img src="/../main/Shake Table/x_waterfall_8g.bmp"width="32%" />
+            <img src="/../main/Shake Table/y_waterfall_8g.bmp"width="32%" />
+            <img src="/../main/Shake Table/z_waterfall_8g.bmp"width="32%" />
+        </p>
+        <p align="middle">
+            <img src="/../main/Shake Table/x_spectro_8g.bmp"width="32%" />
+            <img src="/../main/Shake Table/y_spectro_8g.bmp"width="32%" />
+            <img src="/../main/Shake Table/z_spectro_8g.bmp"width="32%" />
+        </p>
+        </details>
     
     
     
