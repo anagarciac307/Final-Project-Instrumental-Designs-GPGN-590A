@@ -374,5 +374,17 @@ Remote data station
 - 32 GB microSD card - $ 9.99
 ![SD](/../main/images/SD.jpg)
 
+
+## Codes:
+For this project c++ was used to communicate with the arduino. The code is saved as  a .ion file. Variuos libraries where leveraged to communicate with the different components including accelerometer, ADS and touchscreen (remote station):
+Adafruit_LIS3DH.h
+Adafruit_ADS1X15.h
+TouchScreen.h
+
+I2C was used as the communication protocol using, scl and sda to communicate the LIS3DH  to ADS115, and ADS115 with Arduino Uno. The Adafruit_LIS3DH.h library includes fucntions that allow to adjust the frequencis and transform raw data to m/s^2 by normalizing data. Data can be read into an SD file or printed a the serial monitor.
+
+
+
+
 ## References:
 [1] Mateeva, A. et al. Distributed Acoustic Sensing for reservoir monitoring with vertical seismic profiling. Geophysical Prospecting 62, 679–692 (2014). 
