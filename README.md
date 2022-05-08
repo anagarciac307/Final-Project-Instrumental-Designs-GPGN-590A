@@ -393,7 +393,7 @@ For a better interpretation of the results, data was analyzed in the frequency d
 
 
 ## Future directions:
-This project can be further developed to include a second accelerometer wired together by using a different I2C address or increment the number of a wireless station that delivers data to a webpage in real-time using XBee or internet shields. Furthermore, refining data collection and processing is still needed. Our validation tests used clamps to couple the accelerometer to the shake table, however, using the 3D printed box could yield better results. While the Arduino has antialiasing filtering further refinement is needed.
+This project can be further developed to include a second accelerometer wired together by using a different I2C address or increment the number of a wireless station that delivers data to a webpage in real-time using XBee or internet shields. Furthermore, refining data collection and processing is still needed. Our validation tests used clamps to couple the accelerometer to the shake table, however, using the 3D printed box could yield better results. While the Arduino has antialiasing filtering, further refinement is needed. Lastly to live spectograms could be nice feature to make it comperable to how the Terra15 interface displays data.
 
 
 
