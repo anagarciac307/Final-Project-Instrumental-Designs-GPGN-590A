@@ -388,7 +388,7 @@ I2C was used as the communication protocol using, scl and sda ports to communica
 
 Real-time data can be displayed on the touchscreen using tft functions for the remote station code/remote_station.ino. The main station uses an API interface for python and Arduino using the corresponding COM port. As data is read into a jupyter notebook it is decoded and split into arrays code/Accelerometer_datafile.ipynb.
 
-For a better interpretation of the results, data was analyzed in the frequency domain by taking the Fourier transform of the time series data code/Graphs_ShakeTable_Accelerometer_.ipynb. https://github.com/anagarciac307/Final-Project-Instrumental-Designs-GPGN-590A/blob/9a47ef091e5dd8aab5c0f73bb1bf0135008d732f/code/Graphs_ShakeTable_Accelerometer_.ipynb. 
+For a better interpretation of the results, data was analyzed in the frequency domain by taking the Fourier transform of the time series data code/Graphs_ShakeTable_Accelerometer_.ipynb. 
 
 
 
