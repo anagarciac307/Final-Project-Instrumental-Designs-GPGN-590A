@@ -378,13 +378,13 @@ Remote data station
 ## Codes:
 For this project C++ was used to communicate with the Arduino. The code is saved as a .ion file. Various libraries are leveraged to communicate with the different components including accelerometer, A/D converter, and touchscreen (remote station):
 
-Adafruit_LIS3DH.h
+- Adafruit_LIS3DH.h
 
-Adafruit_ADS1X15.h
+- Adafruit_ADS1X15.h
 
-TouchScreen.h
+- TouchScreen.h
 
-I2C was used as the communication protocol using, scl and sda ports to communicate with the LIS3DH  to ADS115, and ADS115 with Arduino Uno. The Adafruit_LIS3DH.h library includes functions that allow to adjustment of the frequencies and transform raw data to m/s^2 by normalizing data. Data can be read into an SD file, printed to the serial monitor, or displayed on a touchscreen using.
+I2C was used as the communication protocol using, scl and sda ports to communicate with the LIS3DH  to ADS115, and ADS115 with Arduino Uno. The Adafruit_LIS3DH.h library includes functions that allow to adjust frequency, level of accuracy using g's, and transform raw data to m/$s^2$ by normalizing data. Data can be read into an SD file, printed to the serial monitor, or displayed on a touchscreen using.
 
 Real-time data can be displayed on the touchscreen using tft functions for the remote station code/remote_station.ino. The main station uses an API interface for python and Arduino using the corresponding COM port. As data is read into a jupyter notebook it is decoded and split into arrays code/Accelerometer_datafile.ipynb.
 
