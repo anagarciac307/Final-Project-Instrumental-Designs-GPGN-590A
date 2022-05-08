@@ -376,7 +376,7 @@ Remote data station
 
 
 ## Codes:
-For this project c++ was used to communicate with the Arduino. The code is saved as a .ion file. Various libraries were leveraged to communicate with the different components including accelerometer, ADS, and touchscreen (remote station):
+For this project C++ was used to communicate with the Arduino. The code is saved as a .ion file. Various libraries are leveraged to communicate with the different components including accelerometer, A/D converter, and touchscreen (remote station):
 
 Adafruit_LIS3DH.h
 
@@ -386,16 +386,14 @@ TouchScreen.h
 
 I2C was used as the communication protocol using, scl and sda ports to communicate with the LIS3DH  to ADS115, and ADS115 with Arduino Uno. The Adafruit_LIS3DH.h library includes functions that allow to adjustment of the frequencies and transform raw data to m/s^2 by normalizing data. Data can be read into an SD file, printed to the serial monitor, or displayed on a touchscreen using.
 
-Real-time data can be displayed on the touchscreen using tft functions for the remote station. The main station uses an API interface for python and Arduino using the corresponding COM port. As data is read into a jupyter notebook it is decoded and split into arrays.
+Real-time data can be displayed on the touchscreen using tft functions for the remote station <remote_station.ino>. The main station uses an API interface for python and Arduino using the corresponding COM port. As data is read into a jupyter notebook it is decoded and split into arrays.
 
 For a better interpretation of the results, data was analyzed in the frequency domain by taking the Fourier transform of the time series data. 
 
 
 
 ## Future directions:
-This project can be further developed to include a second accelerometer wired together by using a different I2C address or increment the number of a wireless station that delivers data to a webpage in real-time using XBee or internet shields. Furthermore, refining data collection and processing is still needed. Our validation tests used clamps to couple the accelerometer to the shake table, however, using the 3D printed box could yield better results. While the Arduino has antialiasing filtering, further refinement is needed. Lastly to live spectograms could be nice feature to make it comperable to how the Terra15 interface displays data.
-
-
+This project can be further developed to include a second accelerometer wired together by using a different I2C address or increment the number of a wireless station that delivers data to a webpage in real-time using XBee or internet shields. Furthermore, refining data collection and processing is still needed. Our validation tests used clamps to couple the accelerometer to the shake table, however, using the 3D printed box could yield better results. A step further to reduce noise from poor coupling would be to use a flexible printed circuit with 3 micro-electrical mechanical systems (MEMS) and fit the exact geometry of the pipeline or structure to monitor. While the Arduino has antialiasing filtering, further refinement is needed. Lastly, quasi-real-time spectrograms could be a nice feature to add and make this device more comparable to how the Terra15 interface displays data.
 
 
 
